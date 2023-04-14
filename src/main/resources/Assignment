@@ -1,0 +1,54 @@
+Dependency Injection in Spring MVC
+----------------------------------
+Dependency Injection (DI) is a design pattern that is commonly used in software development to manage the
+dependencies between different components or objects in an application. In the context of Spring MVC, which
+is a web framework based on the Spring framework for building Java web applications, Dependency Injection (DI)
+refers to the process of injecting (or providing) the dependencies required by a particular object or component,
+rather than that object or component creating or managing its own dependencies.
+
+In other words, instead of a component or object creating its dependencies directly or managing their lifecycle, the
+dependencies are "injected" or provided to the component or object from an external source, usually by a framework
+or container. This allows for loose coupling between components, as components do not need to be aware of how their
+dependencies are created or managed, and allows for easier testing, re-usability, and maintainability of components.
+
+Spring MVC provides built-in support for dependency injection through its IoC (Inversion of Control) container,
+which is a core feature of the Spring framework. The IoC container is responsible for creating and managing objects
+(beans) in a Spring application, and it can inject dependencies into beans based on their configuration, either
+through XML configuration files, Java annotations, or Java code.
+
+By using dependency injection in Spring MVC, you can easily manage and inject dependencies into your controllers,
+services, data access objects (DAOs), and other components, making it a key feature for building scalable and
+maintainable web applications.
+
+---------------------------------------------------------------------------------------------------------------------
+Loosely Coupled Architecture
+----------------------------
+Loosely coupled architecture is a design principle in software development where components or modules of a system
+are designed to have minimal dependencies on each other. In a loosely coupled architecture, components or modules
+are designed to be independent and can be modified or replaced without affecting the entire system. This promotes
+flexibility, reusability, and maintainability of the software system.
+
+In a loosely coupled architecture, components or modules communicate with each other through well-defined
+interfaces, typically using abstract contracts or APIs (Application Programming Interfaces). This allows components
+or modules to be developed, tested, and deployed independently, without tightly coupling them to specific
+implementations or dependencies.
+
+Benefits of loosely coupled architecture include:
+
+1. Flexibility: Components or modules can be easily modified, replaced, or extended without impacting the entire
+system, making it easier to adapt to changing requirements or business needs.
+
+2. Reusability: Loosely coupled components or modules can be reused in different contexts or systems, reducing
+duplication of code and promoting code sharing.
+
+3. Maintainability: Changes or updates to a specific component or module do not require extensive modifications to
+other parts of the system, making it easier to maintain and troubleshoot.
+
+4. Testability: Loosely coupled components or modules can be tested independently, making it easier to isolate and
+fix issues.
+
+5. Scalability: Loosely coupled architecture allows for the system to be scaled horizontally or vertically by adding
+or modifying components or modules without tightly coupling them to the existing system.
+
+Overall, a loosely coupled architecture promotes flexibility, reusability, maintainability, and testability of
+software systems, making it a desirable design principle in software development.

@@ -2,8 +2,6 @@ package com.web.Model;
 
 import jakarta.persistence.*;
 
-import java.util.Objects;
-
 @Entity
 public class Customer {
     @Id

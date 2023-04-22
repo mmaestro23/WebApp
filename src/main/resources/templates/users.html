@@ -31,7 +31,7 @@
           <td>[[${customer.age}]]</td>
           <td>[[${customer.enabled}]]</td>
           <td><a th:href="@{'users/edit/' + ${customer.id}}">Update</a>
-            <a th:href="@{'users/delete/' + ${customer.id}}">Delete</a></td>
+            <a class="del" th:href="@{'users/delete/' + ${customer.id}}">Delete</a></td>
         </tr>
       </th:block>
     </table>
